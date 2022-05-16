@@ -90,9 +90,9 @@ BikerCocaine = {
 
     LoadDefault = function()
         BikerCocaine.Ipl.Interior.Load()
-        BikerCocaine.Style.Set(BikerCocaine.Style.basic)
-        BikerCocaine.Security.Set(BikerCocaine.Security.none)
-
+        BikerCocaine.Style.Set(BikerCocaine.Style.upgrade)
+        BikerCocaine.Security.Set(BikerCocaine.Security.upgrade)
+        BikerCocaine.Details.Enable({BikerCocaine.Details.cokeBasic1, BikerCocaine.Details.cokeBasic2, BikerCocaine.Details.cokeBasic3}, true)
         RefreshInterior(BikerCocaine.interiorId)
     end
 }
